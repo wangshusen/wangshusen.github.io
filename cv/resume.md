@@ -121,7 +121,7 @@ Journal Papers
 --------------------
 * [A Bootstrap Method for Error Estimation in Randomized Matrix Multiplication.](http://wangshusen.github.io/papers/JMLR2019B.pdf)
 Miles E. Lopes, **Shusen Wang**, Michael W. Mahoney.
-Accepted by *Journal of Machine Learning Research*, 20(39):1-40, 2019.
+*Journal of Machine Learning Research* (**JMLR**), 20(39):1-40, 2019.
 
 
 * [Scalable Kernel K-Means Clustering with Nystrom Approximation: Relative-Error Bounds.](http://wangshusen.github.io/papers/JMLR2019A.pdf)
