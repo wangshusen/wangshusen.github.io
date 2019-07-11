@@ -76,7 +76,7 @@ Academic Service
 
 * **Journal Reviewer**
 
-     * Journal of Machine Learning Research 2015 to 2018
+     * Journal of Machine Learning Research, 2015 to 2019
      * SIAM Journal on Scientific Computing, 2017
      * ACM Transactions on Mathematical Software, 2017
      * Journal of Econometrics, 2017
@@ -84,6 +84,8 @@ Academic Service
      * Pattern Recognition Letters, 2018
      * International Journal of Data Science and Analytics, 2018
      * IEEE Transactions on Signal Processing, 2018
+     * IEEE Transactions on Information Theory, 2019
+     * IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019
 
 
 
@@ -123,7 +125,6 @@ Journal Papers
 Miles E. Lopes, **Shusen Wang**, Michael W. Mahoney.
 *Journal of Machine Learning Research* (**JMLR**), 20(39):1-40, 2019.
 
-
 * [Scalable Kernel K-Means Clustering with Nystrom Approximation: Relative-Error Bounds.](http://wangshusen.github.io/papers/JMLR2019A.pdf)
 **Shusen Wang**, Alex Gittens, and Michael W. Mahoney.
 *Journal of Machine Learning Research* (**JMLR**), 20(12):1-49, 2019.
@@ -156,13 +157,6 @@ Alex Gittens, Kai Rothauge, Michael W. Mahoney, **Shusen Wang**, Lisa Gerhardt, 
 Zhihua Zhang, **Shusen Wang**, Dehua Liu, and Michael I. Jordan.
 *Journal of Machine Learning Research* (**JMLR**), 13: 2031-2061, 2012.
 
-
-
-Preprints
---------------------
-* [Improved Analyses of the Randomized Power Method and Block Lanczos Method.]()
-**Shusen Wang**, Zhihua Zhang, and Tong Zhang.
-*arXiv:1508.06429*, 2015. 
 
 
 Conference Papers
@@ -206,7 +200,6 @@ In *the 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining* (**KD
 **Shusen Wang** and Zhihua Zhang.
 In *Proceedings of the 17th International Conference on Artificial Intelligence and Statistics, JMLR W&CP* (**AISTATS**), 2014.
 
-
 * [Making Fisher Discriminant Analysis Scalable.]()
 Bojun Tu, Zhihua Zhang, **Shusen Wang**, and Hui Qian.
 In *the International Conference on Machine Learning* (**ICML**), 2014.
@@ -240,6 +233,11 @@ In *the 26th AAAI Conference on Artificial Intelligence* (**AAAI**), 2012.
 In *the 25th AAAI Conference on Artificial Intelligence* (**AAAI**), 2011.
 
 
+Teaching
+--------------------
+* CS583: Deep Learning, Fall 2019.
+
+* CS583: Deep Learning, Spring 2019.
 
 
 
