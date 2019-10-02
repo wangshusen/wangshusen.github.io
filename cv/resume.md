@@ -20,7 +20,7 @@ Keywords
 
 
 Summary
-:   I am most interested in statistical ML and computational methods for ML. I am developing practical, scalable, and sound algorithms for learning from big and complex data.
+:   My expertise is in statistical ML, computational methods for ML, and deep learning.  I am most interested in practical, scalable, and sound algorithms for learning from big data. In the past, I developed randomized algorithms for making matrix computation, numerical optimization, and machine learning faster and more scalable. My current research is focused on the communication-efficiency and security in distributed ML.
 
 
 Work Experience
