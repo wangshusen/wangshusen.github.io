@@ -15,8 +15,12 @@ Shusen Wang
 Research
 ---------
 
-Machine learning (ML), randomized linear algebra, optimization, big data, distributed computing.
+Keywords
+:   Machine learning (ML), randomized linear algebra, optimization, big data, distributed computing.
 
+
+Summary
+:   I am most interested in statistical ML and computational methods for ML. I am developing practical, scalable, and sound algorithms for learning from big and complex data.
 
 
 Work Experience
@@ -80,7 +84,7 @@ Academic Service
      * SIAM Journal on Scientific Computing, 2017
      * ACM Transactions on Mathematical Software, 2017
      * Journal of Econometrics, 2017
-     * SIAM Journal on Matrix Analysis and Applications, 2017
+     * SIAM Journal on Matrix Analysis and Applications, 2017, 2019
      * Pattern Recognition Letters, 2018
      * International Journal of Data Science and Analytics, 2018
      * IEEE Transactions on Signal Processing, 2018
@@ -95,8 +99,8 @@ Academic Service
      * NIPS 2014, 2015, 2017, 2018
      * ICML 2017, 2018, 2019
      * IJCAI 2015, 2017, 2018, 2019
-     * AAAI 2017, 2018
-     * AISTATS 2019
+     * AAAI 2017, 2018, 2020
+     * AISTATS 2019, 2020
      * UAI 2019
      * Supercomputing (SC) 2019
 
