@@ -98,10 +98,10 @@ Academic Service
 
      * NIPS 2014, 2015, 2017, 2018
      * ICML 2017, 2018, 2019
-     * IJCAI 2015, 2017, 2018, 2019
+     * IJCAI 2015, 2017, 2018, 2019, 2020
      * AAAI 2017, 2018, 2020
      * AISTATS 2019, 2020
-     * UAI 2019
+     * UAI 2019, 2020
      * Supercomputing (SC) 2019
 
 
@@ -165,6 +165,14 @@ Zhihua Zhang, **Shusen Wang**, Dehua Liu, and Michael I. Jordan.
 
 Conference Papers
 --------------------
+* [On the Convergence of FedAvg on Non-IID Data.](http://arxiv.org/abs/1907.02189)
+Xiang Li, Kaixuan Huang, Wenhao Yang, **Shusen Wang**, and Zhihua Zhang.
+In *International Conference on Learning Representations* (**ICLR**), 2020.
+
+* [Do Subsampled Newton Methods Work for High-Dimensional Data?](http://arxiv.org/abs/1902.04952)
+Xiang Li, **Shusen Wang**, and Zhihua Zhang.
+In *AAAI Conference on Artificial Intelligence* (**AAAI**), 2020.
+
 * [Sharper Generalization Bound for the Divide-and-Conquer Ridge Regression.]() 
 **Shusen Wang**. In *AAAI Conference on Artificial Intelligence* (**AAAI**), 2019.
 
@@ -239,6 +247,8 @@ In *the 25th AAAI Conference on Artificial Intelligence* (**AAAI**), 2011.
 
 Teaching
 --------------------
+* CS583: Deep Learning, Spring 2020.
+
 * CS583: Deep Learning, Fall 2019.
 
 * CS583: Deep Learning, Spring 2019.
