@@ -130,6 +130,7 @@
 <li><p>Python programming (especially the Numpy library) and Jupyter Notebook.</p></li>
 </ul>
 <p><strong>Goal:</strong> This is a practical course; the students will be able to use DL methods for solving real-world ML, CV, and NLP problems. The students will also learn math and theories for understanding ML and DL.</p>
+<p><span style="color:red"><strong>Slides:</strong> All the slides are available here:</span> [<a href="https://github.com/wangshusen/DeepLearning">link</a>]</p>
 <h2 id="schedule">Schedule</h2>
 <ul>
 <li><p>Preparations</p>
@@ -182,20 +183,23 @@
 </ul></li>
 <li><p>Mar 12, Lecture 8</p>
 <ul>
-<li>Recurrent neural networks (RNNs).</li>
+<li><p>Federated learning.</p></li>
+<li><p>Text processing.</p></li>
 </ul></li>
 <li><p>Mar 12, Quiz 2 after the lecture</p>
 <ul>
-<li><p>Coverage: vector and matrix operations, gradients, ML basics, neural networks, CNNs, parallel computing, reinforcement learning basics.</p></li>
+<li><p>Coverage: vector and matrix operations, gradients, ML basics, neural networks, CNNs, parallel computing.</p></li>
 <li><p>Policy: Printed material, notes, and books are allowed. No electronic device (except electronic calculator).</p></li>
 <li><p>Sample: [<a href="https://github.com/wangshusen/CS583-2020S/blob/master/homework/Exam-Sample/Sample.pdf">click here</a>]</p></li>
 </ul></li>
 <li><p>Mar 19, Lecture 9</p>
 <ul>
-<li>RNNs: Text generation, machine translation, caption generation, attention.</li>
+<li><p>RNN and LSTM.</p></li>
+<li><p>RNNs: Text generation, machine translation, caption generation.</p></li>
 </ul></li>
 <li><p>Mar 26, Lecture 9</p>
 <ul>
+<li><p>Attention.</p></li>
 <li><p>The Transformer model and BERT.</p></li>
 <li><p>Reinforcement learning basics.</p></li>
 </ul></li>
@@ -243,96 +247,6 @@
 <li><p>Submit to Canvas before May 1 (firm deadline).</p></li>
 </ul></li>
 </ul>
-<h2 id="syllabus-and-slides">Syllabus and Slides</h2>
-<ol style="list-style-type: decimal">
-<li><p><strong>Machine learning basics.</strong> This part briefly introduces the fundamental ML problems-- regression, classification, dimensionality reduction, and clustering-- and the traditional ML models and numerical algorithms for solving the problems.</p>
-<ul>
-<li><p>ML basics. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/1_ML_Basics.pdf">slides-1</a>][<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/1_Models.pdf">slides-2</a>]</p></li>
-<li><p>Regression. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/2_Regression_1.pdf">slides-1</a>] [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/2_Regression_2.pdf">slides-2</a>]</p></li>
-<li><p>Classification.</p>
-<ul>
-<li><p>Logistic regression: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/3_Classification_1.pdf">slides</a>] [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/Logistic/paper/logistic.pdf">lecture note</a>]</p></li>
-<li><p>SVM: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/3_Classification_2.pdf">slides</a>]</p></li>
-<li><p>Softmax classifier: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/3_Classification_3.pdf">slides</a>]</p></li>
-<li><p>KNN classifier: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/3_Classification_4.pdf">slides</a>]</p></li>
-</ul></li>
-<li><p>Regularizations. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/3_Optimization.pdf">slides-1</a>][<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/3_Regularizations.pdf">slides-2</a>]</p></li>
-<li><p>Clustering. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/4_Clustering.pdf">slides</a>]</p></li>
-<li><p>Dimensionality reduction. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/5_DR_1.pdf">slides-1</a>] [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/5_DR_2.pdf">slides-2</a>] [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/SVD/svd.pdf">lecture note</a>]</p></li>
-<li><p>Scientific computing libraries. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/5_DR_3.pdf">slides</a>]</p></li>
-</ul></li>
-<li><p><strong>Neural network basics.</strong> This part covers the multilayer perceptron, backpropagation, and deep learning libraries, with focus on Keras.</p>
-<ul>
-<li><p>Multilayer perceptron and backpropagation. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/6_NeuralNet_1.pdf">slides</a>][<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/BP/bp.pdf">lecture note</a>]</p></li>
-<li><p>Keras. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/6_NeuralNet_2.pdf">slides</a>]</p></li>
-<li><p>Further reading:</p>
-<ul>
-<li><p>[<a href="https://adl1995.github.io/an-overview-of-activation-functions-used-in-neural-networks.html">activation functions</a>]</p></li>
-<li><p>[<a href="https://towardsdatascience.com/weight-initialization-in-neural-networks-a-journey-from-the-basics-to-kaiming-954fb9b47c79">parameter initialization</a>]</p></li>
-<li><p>[<a href="http://ruder.io/optimizing-gradient-descent/">optimization algorithms</a>]</p></li>
-</ul></li>
-</ul></li>
-<li><p><strong>Convolutional neural networks (CNNs).</strong> This part is focused on CNNs and its application to computer vision problems.</p>
-<ul>
-<li><p>CNN basics. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/7_CNN_1.pdf">slides</a>]</p></li>
-<li><p>Tricks for improving test accuracy. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/7_CNN_2.pdf">slides</a>]</p></li>
-<li><p>Feature scaling and batch normalization. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/7_CNN_3.pdf">slides</a>]</p></li>
-<li><p>Advanced topics on CNNs. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/7_CNN_4.pdf">slides</a>]</p></li>
-<li><p>Popular CNN architectures. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/7_CNN_5.pdf">slides</a>]</p></li>
-<li><p>Face recognition. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/7_CNN_6.pdf">slides</a>]</p></li>
-<li><p>Further reading:</p>
-<ul>
-<li><p>[style transfer (Section 8.1, Chollet's book)]</p></li>
-<li><p>[visualize CNN (Section 5.4, Chollet's book)]</p></li>
-</ul></li>
-</ul></li>
-<li><p><strong>Recurrent neural networks (RNNs).</strong> This part introduces RNNs and its applications in natural language processing (NLP).</p>
-<ul>
-<li><p>Text processing. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_1.pdf">slides</a>]</p></li>
-<li><p>RNN basics and LSTM. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_2.pdf">slides</a>][<a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">reference</a>]</p></li>
-<li><p>Text generation. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_3.pdf">slides</a>]</p></li>
-<li><p>Machine translation. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_4.pdf">slides</a>]</p></li>
-<li><p>Image caption generation. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_5.pdf">slides</a>][<a href="https://machinelearningmastery.com/develop-a-deep-learning-caption-generation-model-in-python/">reference</a>]</p></li>
-<li><p>Attention. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_6.pdf">slides</a>][<a href="https://distill.pub/2016/augmented-rnns/">reference-1</a>] [<a href="https://lilianweng.github.io/lil-log/2018/06/24/attention-attention.html">reference-2</a>]</p></li>
-</ul></li>
-<li><p><strong>Language Models beyond RNNs.</strong></p>
-<ul>
-<li><p>Transformer model: beyond RNNs. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_7.pdf">slides</a>][<a href="https://arxiv.org/pdf/1706.03762.pdf">reference</a>]</p></li>
-<li><p>Pre-train Transformer using BERT. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_8.pdf">slides</a>][<a href="https://arxiv.org/pdf/1810.04805.pdf">reference</a>]</p></li>
-</ul></li>
-<li><p><strong>Autoencoders.</strong> This part introduces autoencoders for dimensionality reduction and image generation.</p>
-<ul>
-<li><p>Autoencoder for dimensionality reduction. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/8_AE_1.pdf">slides</a>]</p></li>
-<li><p>Variational Autoencoders (VAEs) for image generation. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/8_AE_2.pdf">slides</a>]</p></li>
-</ul></li>
-<li><p><strong>Generative Adversarial Networks (GANs).</strong></p>
-<ul>
-<li>DC-GAN [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/12_GAN.pdf">slides</a>]</li>
-</ul></li>
-<li><p><strong>Recommender system.</strong> This part is focused on the collaborative filtering approach to recommendation based on the user-item rating data. This part covers matrix completion methods and neural network approaches.</p>
-<ul>
-<li>Collaborative filtering. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/10_Recommender.pdf">slides</a>]</li>
-</ul></li>
-<li><p><strong>Deep Reinforcement Learning.</strong></p>
-<ul>
-<li><p>Reinforcement learning [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/13_RL_1.pdf">slides</a>] [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/DRL/DRL.pdf">lecture note</a>]</p></li>
-<li><p>Value-based learning [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/13_RL_2.pdf">slides</a>]</p></li>
-<li><p>Policy-based learning [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/13_RL_3.pdf">slides</a>]</p></li>
-<li><p>Actor-critic methods [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/13_RL_4.pdf">slides</a>]</p></li>
-<li><p>AlphaGo [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/13_RL_5.pdf">slides</a>]</p></li>
-</ul></li>
-<li><p><strong>Parallel Computing.</strong></p>
-<ul>
-<li><p>Basics and MapReduce. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/14_Parallel_1.pdf">slides</a>] [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/Parallel/Parallel.pdf">lecture note</a>]</p></li>
-<li><p>Parameter Server and Decentralized Network. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/14_Parallel_2.pdf">slides</a>]</p></li>
-<li><p>Federated Learning. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/14_Parallel_3.pdf">slides</a>]</p></li>
-</ul></li>
-<li><p><strong>Adversarial Robustness.</strong> This part introduces how to attack neural networks using adversarial examples and how to defend from the attack.</p>
-<ul>
-<li><p>Data evasion attack and defense. [<a href="https://github.com/wangshusen/DeepLearning/blob/master/Slides/11_Adversarial.pdf">slides</a>][<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/Adversarial/DataAttacks.pdf">lecture note</a>]</p></li>
-<li><p>Further reading: [<a href="https://adversarial-ml-tutorial.org/">Adversarial Robustness - Theory and Practice</a>]</p></li>
-</ul></li>
-</ol>
 <h2 id="textbooks">Textbooks</h2>
 <p><strong>Required</strong> (Please notice the difference between &quot;required&quot; and &quot;recommended&quot;):</p>
 <ul>
