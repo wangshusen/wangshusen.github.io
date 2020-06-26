@@ -7,9 +7,10 @@ Shusen Wang
 >  Department of Computer Science,
 >  Stevens Institute of Technology
 
-----------------------   -------------------------------   -------------------------
-**Phone:** (201)216-5485    **Email:** swang134@stevens.edu   **Homepage:** wangshusen.github.io
-----------------------   -------------------------------   -------------------------
+
+
+**Phone:** (201)216-5485  &nbsp; &nbsp;  **Email:** shusen.wang@stevens.edu  &nbsp; &nbsp; **Homepage:** wangshusen.github.io
+
 
 
 Research
@@ -20,7 +21,7 @@ Keywords
 
 
 Summary
-:   My expertise is in statistical ML, computational methods for ML, and deep learning.  I am most interested in practical, scalable, and sound algorithms for learning from big data. In the past, I developed randomized algorithms for making matrix computation, numerical optimization, and machine learning faster and more scalable. My current research is focused on the communication-efficiency and security in distributed ML.
+:   My expertise is in statistical ML, computational methods for ML, and deep learning.  I am most interested in practical, scalable, and sound algorithms for learning from big data. In the past, I developed randomized algorithms for making matrix computation, numerical optimization, and machine learning faster and more scalable. My current research is focused on communication-efficiency and privacy-preserving algorithms for federated learning.
 
 
 Work Experience
@@ -80,7 +81,7 @@ Academic Service
 
 * **Journal Reviewer**
 
-     * Journal of Machine Learning Research, 2015 to 2019
+     * Journal of Machine Learning Research, 2015 to 2020
      * SIAM Journal on Scientific Computing, 2017
      * ACM Transactions on Mathematical Software, 2017
      * Journal of Econometrics, 2017
@@ -96,7 +97,7 @@ Academic Service
 
 * **Conference Committee Member or Reviewer**
 
-     * NIPS 2014, 2015, 2017, 2018
+     * NIPS 2014, 2015, 2017, 2018, 2020
      * ICML 2017, 2018, 2019
      * IJCAI 2015, 2017, 2018, 2019, 2020
      * AAAI 2017, 2018, 2020
@@ -247,6 +248,8 @@ In *the 25th AAAI Conference on Artificial Intelligence* (**AAAI**), 2011.
 
 Teaching
 --------------------
+* CS600: Advanced Algorithms, Fall 2020.
+
 * CS583: Deep Learning, Spring 2020.
 
 * CS583: Deep Learning, Fall 2019.
