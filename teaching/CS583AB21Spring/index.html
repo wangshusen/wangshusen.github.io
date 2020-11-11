@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="cs583-deep-learning">CS583: Deep Learning</h1>
+<blockquote>
+<p>Instructor: Shusen Wang</p>
+</blockquote>
+<blockquote>
+<p>TA: Xuting Tang</p>
+</blockquote>
+<h2 id="description">Description</h2>
+<p><strong>Meeting Time:</strong></p>
+<ul>
+<li><p>Section A: Thursday, 6:30-9:00 PM, Online or Hybrid</p></li>
+<li><p>Section B: Friday, 3:00-5:30 PM, Online or Hybrid</p></li>
+</ul>
+<p><strong>Office Hours:</strong></p>
+<ul>
+<li>Friday, 5:30-7:30 PM, Gateway South 354 or virtual</li>
+</ul>
+<p><strong>Contact the Instructor:</strong></p>
+<ul>
+<li><p>For questions regarding grading, talk to the instructor during office hours or send him emails.</p></li>
+<li><p>For any other questions, come during the office hours; the instructor will NOT reply such emails.</p></li>
+</ul>
+<p><strong>Prerequisite:</strong></p>
+<ul>
+<li><p>Elementary linear algebra, e.g., matrix multiplication, eigenvalue decomposition, and matrix norms.</p></li>
+<li><p>Elementary calculus, e.g., convex function, differentiation of scalar functions, first derivative, and second derivative.</p></li>
+<li><p>Python programming (especially the Numpy library) and Jupyter Notebook.</p></li>
+</ul>
+<p><strong>Goal:</strong> This is a practical course; the students will be able to use DL methods for solving real-world ML, CV, and NLP problems. The students will also learn math and theories for understanding ML and DL.</p>
+<p><span style="color:red"><strong>Slides:</strong> All the slides are available here:</span> [<a href="https://github.com/wangshusen/DeepLearning">link</a>]</p>
+<h2 id="schedule">Schedule</h2>
+<ul>
+<li><p>Preparations</p>
+<ul>
+<li><p>Install the software packages by following [<a href="https://github.com/wangshusen/CS583-2019F/blob/master/homework/Prepare/HM.pdf">this</a>]</p></li>
+<li><p>Study elementary matrix algebra by following [<a href="http://vmls-book.stanford.edu/vmls.pdf">this book</a>]</p></li>
+<li><p>Finish the [<a href="https://github.com/wangshusen/CS583-2019F/blob/master/homework/Quiz1-Sample/Q1.pdf">sample questions</a>] before Quiz 1.</p></li>
+</ul></li>
+<li><p>Jan 21/22, Lecture 1</p>
+<ul>
+<li><p>Read these in advance: [<a href="https://github.com/wangshusen/CS583A-2019Spring/blob/master/reading/MatrixCalculus.pdf">Matrix Calculus</a>][<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/Logistic/paper/logistic.pdf">Logistic Regression</a>]</p></li>
+<li><p>Regression</p></li>
+<li><p>Classification: logistic regression.</p></li>
+</ul></li>
+<li><p>Jan 28/29, Lecture 2</p>
+<ul>
+<li><p>Classification: SVM, softmax classifier, and KNN.</p></li>
+<li><p>Regularizations.</p></li>
+</ul></li>
+<li><p>Feb 4/5, Lecture 3</p>
+<ul>
+<li><p>Read Sections 1 to 4 in advance: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/BP/bp.pdf">neural networks and backpropagation</a>]</p></li>
+<li><p>Neural networks.</p></li>
+<li><p>Keras.</p></li>
+</ul></li>
+<li><p>Feb 7, 8:30PM - 10:00PM, <strong>Quiz 1</strong>, online</p>
+<ul>
+<li><p>Coverage: vectors norms (<span class="math inline">ℓ<sub>2</sub></span>-norm, <span class="math inline">ℓ<sub>1</sub></span>-norm, <span class="math inline">ℓ<sub><em>p</em></sub></span>-norm, <span class="math inline">ℓ<sub>∞</sub></span>-norm), vector inner product, matrix multiplication, matrix trace, matrix Frobenius norm, scalar function differential, convex function, use Numpy for matrix computation, and ML basics.</p></li>
+<li><p>Time limit: 30 minutes</p></li>
+</ul></li>
+<li><p>Feb 11/12, Lecture 4</p>
+<ul>
+<li>Convolutional neural networks (CNNs).</li>
+</ul></li>
+<li><p>Feb 18/19, Lecture 5</p>
+<ul>
+<li>CNNs: Useful tricks, batch normalization, theories, face recognition.</li>
+</ul></li>
+<li><p>Feb 25/26, Lecture 6</p>
+<ul>
+<li><p>Read the note in advance: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/Parallel/Parallel.pdf">lecture note</a>]</p></li>
+<li><p>CNN architectures.</p></li>
+<li><p>Parallel computing.</p></li>
+</ul></li>
+<li><p>Mar 4/5, Lecture 7</p>
+<ul>
+<li><p>Federated learning.</p></li>
+<li><p>Text processing.</p></li>
+<li><p>Simple RNN.</p></li>
+</ul></li>
+<li><p>Mar 7, 8:30PM - 10:00PM, <strong>Quiz 2</strong>, online</p>
+<ul>
+<li><p>Coverage: vector and matrix operations, gradients, ML basics, neural networks, CNNs, parallel computing.</p></li>
+<li><p>Time limit: 30 minutes.</p></li>
+<li><p>Sample: [<a href="https://github.com/wangshusen/CS583-2020S/blob/master/homework/Exam-Sample/Sample.pdf">click here</a>]</p></li>
+</ul></li>
+<li><p>Mar 11/12, Lecture 8</p>
+<ul>
+<li>RNNs: LSTM, Text generation, machine translation.</li>
+</ul></li>
+<li><p>Mar 18/19, Lecture 9</p>
+<ul>
+<li><p>Attention and self-attention.</p></li>
+<li><p>Transformer and BERT.</p></li>
+</ul></li>
+<li><p>Mar 25/26, Lecture 10</p>
+<ul>
+<li><p>Autoencoders.</p></li>
+<li><p>Variational Autoencoder (VAE).</p></li>
+</ul></li>
+<li><p>Apr 4/5, Lecture 11</p></li>
+</ul>
+<h2 id="assignments-and-bonus-scores">Assignments and Bonus Scores</h2>
+<ul>
+<li><p>Homework 1: Linear Algebra Basics</p>
+<ul>
+<li><p>Available only on Canvas (auto-graded.)</p></li>
+<li><p>Submit to Canvas before Feb 6.</p></li>
+</ul></li>
+<li><p>Homework 2: Implement Numerical Optimization Algorithms</p>
+<ul>
+<li>Available at the course's repo [<a href="https://github.com/wangshusen/CS583-2020S/tree/master/homework">click here</a>].</li>
+<li><p>You will need the knowledge in the lecture note: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/Logistic/paper/logistic.pdf">Logistic Regression</a>]</p></li>
+<li><p>Submit to Canvas before Feb 23.</p></li>
+</ul></li>
+<li><p>Homework 3: Machine Learning Basics</p>
+<ul>
+<li><p>Available only on Canvas (auto-graded.)</p></li>
+<li><p>Submit to Canvas before Mar 8.</p></li>
+</ul></li>
+<li><p>Homework 4: Implement a Convolutional Neural Network</p>
+<ul>
+<li><p>Available at the course's repo [<a href="https://github.com/wangshusen/CS583-2021S/tree/master/homework">click here</a>].</p></li>
+<li><p>Submit to Canvas before Mar 22.</p></li>
+</ul></li>
+<li><p>Homework 5: Implement a Recurrent Neural Network</p>
+<ul>
+<li><p>Available at the course's repo [<a href="https://github.com/wangshusen/CS583-2021S/tree/master/homework">click here</a>].</p></li>
+<li><p>Submit to Canvas before Apr 12.</p></li>
+<li><p>You may get up to 2 bonus scores by doing extra work.</p></li>
+</ul></li>
+<li><p>Bonus 1: Implement Parallel Algorithms (Voluntary)</p>
+<ul>
+<li><p>Available at the course's repo [<a href="https://github.com/wangshusen/CS583-2021S/tree/master/homework">click here</a>].</p></li>
+<li><p>You will need the knowledge in the lecture note: [<a href="https://github.com/wangshusen/DeepLearning/blob/master/LectureNotes/Parallel/Parallel.pdf">Parallel Computing</a>]</p></li>
+<li><p>You can choose to implement Federated Averaging or/and Decentralized Optimization. You may get up to 2 bonus points for each.</p></li>
+<li><p>Submit to Canvas before Apr 5 (firm deadline).</p></li>
+</ul></li>
+<li><p>Bonus 2: Implement an Autoencoder Network (Voluntary)</p>
+<ul>
+<li><p>Available at the course's repo [<a href="https://github.com/wangshusen/CS583-2021S/tree/master/homework">click here</a>].</p></li>
+<li><p>You may get up to 1 bonus point.</p></li>
+<li><p>Submit to Canvas before May 1 (firm deadline).</p></li>
+</ul></li>
+</ul>
+<h2 id="textbooks">Textbooks</h2>
+<p><strong>Required</strong> (Please notice the difference between &quot;required&quot; and &quot;recommended&quot;):</p>
+<ul>
+<li>Francois Chollet. Deep learning with Python. Manning Publications Co., 2017. (Available online.)</li>
+</ul>
+<p><strong>Highly Recommended</strong>:</p>
+<ul>
+<li>S. Boyd and L. Vandenberghe. Introduction to Applied Linear Algebra. Cambridge University Press, 2018. (Available online.)</li>
+</ul>
+<p><strong>Recommended</strong>:</p>
+<ul>
+<li><p>Y. Nesterov. Introductory Lectures on Convex Optimization Book. Springer, 2013. (Available online.)</p></li>
+<li><p>D. S. Watkins. Fundamentals of Matrix Computations. John Wiley &amp; Sons, 2004.</p></li>
+<li><p>I. Goodfellow, Y. Bengio, A. Courville, Y. Bengio. Deep learning. MIT press, 2016. (Available online.)</p></li>
+<li><p>M. Mohri, A. Rostamizadeh, and A. Talwalkar. Foundations of machine learning. MIT press, 2012.</p></li>
+<li><p>J. Friedman, T. Hastie, and R. Tibshirani. The elements of statistical learning. Springer series in statistics, 2001. (Available online.)</p></li>
+</ul>
+<h2 id="grading-policy">Grading Policy</h2>
+<p><strong>Grades</strong>:</p>
+<ul>
+<li><p><strong>A</strong>: 93 and above.</p></li>
+<li><p><strong>A-</strong>: [90, 93)</p></li>
+<li><p><strong>B+</strong>: [87, 90)</p></li>
+<li><p><strong>B</strong>: [83, 87)</p></li>
+<li><p><strong>B-</strong>: [80, 83)</p></li>
+<li><p><strong>C+</strong>: [77, 80)</p></li>
+<li><p><strong>C</strong>: [73, 77)</p></li>
+<li><p><strong>Fail</strong>: below 73</p></li>
+</ul>
+<p><strong>Weights</strong>:</p>
+<ul>
+<li><p>Homework 50%</p></li>
+<li><p>Quizzes 30%</p></li>
+<li><p>Final 20%</p></li>
+<li><p>Bonus</p></li>
+</ul>
+<p><strong>Expected grade on record</strong>:</p>
+<ul>
+<li><p>An average student is expected to lose at least 10 points.</p></li>
+<li><p>If an average student does not collect any bonus score, his grade on record is expected to be &quot;B+&quot;. An average student needs at least 3 bonus scores to get &quot;A&quot;.</p></li>
+<li><p>According to Stevens's policy, a score lower than 73.0 will be fail.</p></li>
+</ul>
+<p><strong>Late penalty</strong>:</p>
+<ul>
+<li><p>Late submissions of assignments or project document for whatever reason will be punished. 2% of the score of an assignment/project will be deducted per day. For example, if an assignment is submitted 15 days and 1 minute later than the deadline (counted as 16 days) and it gets a grade of 95%, then the score after the deduction will be: 95% - 2*16% = 63%.</p></li>
+<li><p>All the deadlines for bonus are firm. Late submission will not receive bonus score.</p></li>
+<li><p>May 1 is the firm deadline for all the homework and the course project. Submissions later than the firm deadline will not be graded.</p></li>
+</ul>
+</body>
+</html>
