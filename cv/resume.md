@@ -248,6 +248,8 @@ In *the 25th AAAI Conference on Artificial Intelligence* (**AAAI**), 2011.
 
 Teaching
 --------------------
+* CS583: Deep Learning, Spring 2021.
+
 * CS600: Advanced Algorithms, Fall 2020.
 
 * CS583: Deep Learning, Spring 2020.
@@ -256,5 +258,5 @@ Teaching
 
 * CS583: Deep Learning, Spring 2019.
 
-
+* Open courses on YouTube: [[English Channel](https://www.youtube.com/c/ShusenWangEng)] [[Chinese Channel](https://www.youtube.com/c/ShusenWang)]
 
