@@ -16,12 +16,8 @@ Shusen Wang
 Research
 ---------
 
-Keywords
-:   Machine learning (ML), randomized linear algebra, optimization, big data, distributed computing.
+Deep learning, distributed machine learning, reinforcement learning, numerical optimization, randomized linear algebra.
 
-
-Summary
-:   My expertise is in statistical ML, computational methods for ML, and deep learning.  I am most interested in practical, scalable, and sound algorithms for learning from big data. In the past, I developed randomized algorithms for making matrix computation, numerical optimization, and machine learning faster and more scalable. My current research is focused on communication-efficiency and privacy-preserving algorithms for federated learning.
 
 
 Work Experience
@@ -78,10 +74,9 @@ Education
     
 Academic Service
 --------------------
-
 * **Journal Reviewer**
 
-     * Journal of Machine Learning Research, 2015 to 2020
+     * Journal of Machine Learning Research, 2015 to 2021
      * SIAM Journal on Scientific Computing, 2017
      * ACM Transactions on Mathematical Software, 2017
      * Journal of Econometrics, 2017
@@ -90,7 +85,7 @@ Academic Service
      * International Journal of Data Science and Analytics, 2018
      * IEEE Transactions on Signal Processing, 2018
      * IEEE Transactions on Information Theory, 2019
-     * IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019
+     * IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019, 2020
 
 
 
@@ -103,7 +98,14 @@ Academic Service
      * AAAI 2017, 2018, 2020
      * AISTATS 2019, 2020
      * UAI 2019, 2020
-     * Supercomputing (SC) 2019
+     * KDD 2020
+     * Supercomputing 2019
+
+
+* **Conference Senior Committee Member**
+
+     * AAAI 2021
+     * IJCAI 2021
 
 
 Major Honors & Awards
@@ -126,6 +128,14 @@ awarded to 10 students in Asia Pacific, US$10,000
 
 Journal Papers
 --------------------
+* [Fast Pseudo-spectrum Estimation for Automotive Massive MIMO Radar.]()
+Bin Li, **Shusen Wang**, Zhiyong Feng, Jun Zhang, Xianbin Cao, and Chenglin Zhao.
+*IEEE Internet of Things Journal*, 2021.
+
+* [Randomized Approximate Channel Estimator in Massive-MIMO Communication.]()
+Bin Li, **Shusen Wang**, Xianbin Cao, Jun Zhang, and Chenglin Zhao.
+*IEEE Communications Letters*, 2020.
+
 * [A Bootstrap Method for Error Estimation in Randomized Matrix Multiplication.](http://wangshusen.github.io/papers/JMLR2019B.pdf)
 Miles E. Lopes, **Shusen Wang**, Michael W. Mahoney.
 *Journal of Machine Learning Research* (**JMLR**), 20(39):1-40, 2019.
@@ -173,6 +183,10 @@ In *International Conference on Learning Representations* (**ICLR**), 2020.
 * [Do Subsampled Newton Methods Work for High-Dimensional Data?](http://arxiv.org/abs/1902.04952)
 Xiang Li, **Shusen Wang**, and Zhihua Zhang.
 In *AAAI Conference on Artificial Intelligence* (**AAAI**), 2020.
+
+* [Cola-GNN: Cross-location Attention based Graph Neural Networks for Long-term ILI Prediction.]()
+Songgaojun Deng, **Shusen Wang**, Huzefa Rangwala, Lijing Wang, and Yue Ning.
+In *Conference on Information and Knowledge Management* (**CIKM**), 2020.
 
 * [Sharper Generalization Bound for the Divide-and-Conquer Ridge Regression.]() 
 **Shusen Wang**. In *AAAI Conference on Artificial Intelligence* (**AAAI**), 2019.
