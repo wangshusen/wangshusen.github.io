@@ -144,6 +144,10 @@ Miles E. Lopes, **Shusen Wang**, Michael W. Mahoney.
 **Shusen Wang**, Alex Gittens, and Michael W. Mahoney.
 *Journal of Machine Learning Research* (**JMLR**), 20(12):1-49, 2019.
 
+* [Alchemist: An Apache Spark <=> MPI Interface.]()
+Alex Gittens, Kai Rothauge, Michael W. Mahoney, **Shusen Wang**, Lisa Gerhardt, Prabhat, Jey Kottalam, Michael Ringenburg, and Kristyn Maschhoff.
+*Concurrency and Computation Practice and Experience* (**CCPE**), 31(16), e5026, 2019.
+
 * [Sketched Ridge Regression: Optimization Perspective, Statistical Perspective, and Model Averaging.](http://wangshusen.github.io/papers/JMLR2018.pdf)
 **Shusen Wang**, Alex Gittens, and Michael W. Mahoney.
 *Journal of Machine Learning Research* (**JMLR**), 18:1-50, 2018.
@@ -151,10 +155,6 @@ Miles E. Lopes, **Shusen Wang**, Michael W. Mahoney.
 * [Efficient Data-Driven Geologic Feature Characterization from Pre-stack Seismic Measurements using Randomized Machine-Learning Algorithm.](http://wangshusen.github.io/papers/GJI2018.pdf)
 Youzuo Lin, **Shusen Wang**, Jayaraman Thiagarajan, George Guthrie, and David Coblentz.
 *Geophysical Journal International*, ggy385, 2018. 
-
-* [Alchemist: An Apache Spark <=> MPI Interface.]()
-Alex Gittens, Kai Rothauge, Michael W. Mahoney, **Shusen Wang**, Lisa Gerhardt, Prabhat, Jey Kottalam, Michael Ringenburg, and Kristyn Maschhoff.
-*Concurrency and Computation Practice and Experience* (**CCPE**), Special Issue on the Cray User Group, to appear, 2018.
 
 * [Towards More Efficient SPSD Matrix Approximation and CUR Matrix Decomposition](http://wangshusen.github.io/papers/JMLR2016b.pdf).
 **Shusen Wang**, Zhihua Zhang, and Tong Zhang.
