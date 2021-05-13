@@ -128,6 +128,10 @@ awarded to 10 students in Asia Pacific, US$10,000
 
 Journal Papers
 --------------------
+* [Fast Randomized-MUSIC for Mm-Wave Massive MIMO Radars.]()
+Bin Li, Shusen Wang, Jun Zhang, Xianbin Cao, and Chenglin Zhao.
+IEEE Transactions on Vehicular Technology, 70(2):1952-1956, 2021.
+
 * [Fast Pseudo-spectrum Estimation for Automotive Massive MIMO Radar.]()
 Bin Li, **Shusen Wang**, Zhiyong Feng, Jun Zhang, Xianbin Cao, and Chenglin Zhao.
 *IEEE Internet of Things Journal*, 2021.
@@ -176,6 +180,14 @@ Zhihua Zhang, **Shusen Wang**, Dehua Liu, and Michael I. Jordan.
 
 Conference Papers
 --------------------
+* [Matrix Sketching for Secure Collaborative Machine Learning.]()
+Mengjiao Zhang and **Shusen Wang**.
+In *International Conference on Machine Learning* (**ICML**), 2021.
+
+* [Communication-Efficient Distributed SVD via Local Power Iterations.]()
+Xiang Li, **Shusen Wang**, Kun Chen, and Zhihua Zhang.
+In *International Conference on Machine Learning* (**ICML**), 2021.
+
 * [On the Convergence of FedAvg on Non-IID Data.](http://arxiv.org/abs/1907.02189)
 Xiang Li, Kaixuan Huang, Wenhao Yang, **Shusen Wang**, and Zhihua Zhang.
 In *International Conference on Learning Representations* (**ICLR**), 2020.
