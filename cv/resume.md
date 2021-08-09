@@ -16,7 +16,7 @@ Shusen Wang
 Research
 ---------
 
-Deep learning, distributed machine learning, reinforcement learning, numerical optimization, randomized linear algebra.
+Deep learning, distributed machine learning, reinforcement learning, statistical machine learning, numerical optimization, randomized linear algebra.
 
 
 
@@ -31,7 +31,7 @@ from 2018
 
     *Advisor: Michael W. Mahoney*
 
-    *Research: randomized linear algebra and implementation*
+    *Research: randomized linear algebra and implementation; distributed ML algorithms*
 
 2014-2015
 :   **Research Intern**; Baidu Big Data Lab (Beijing, China)
@@ -104,7 +104,7 @@ Academic Service
 
 * **Conference Senior Committee Member**
 
-     * AAAI 2021
+     * AAAI 2021, 2022
      * IJCAI 2021
 
 
@@ -187,6 +187,11 @@ In *International Conference on Machine Learning* (**ICML**), 2021.
 * [Communication-Efficient Distributed SVD via Local Power Iterations.]()
 Xiang Li, **Shusen Wang**, Kun Chen, and Zhihua Zhang.
 In *International Conference on Machine Learning* (**ICML**), 2021.
+
+* [Accelerating Transformer-based Deep Learning Models on FPGAs using Column Balanced Block Pruning.]()
+Hongwu Peng, Shaoyi Huang, Tong Geng, Ang Li, Weiwen Jiang, Hang Liu, **Shusen Wang**, Caiwen Ding
+In *International Symposium on Quality Electronic Design*, 2021.
+
 
 * [On the Convergence of FedAvg on Non-IID Data.](http://arxiv.org/abs/1907.02189)
 Xiang Li, Kaixuan Huang, Wenhao Yang, **Shusen Wang**, and Zhihua Zhang.
@@ -274,6 +279,8 @@ In *the 25th AAAI Conference on Artificial Intelligence* (**AAAI**), 2011.
 
 Teaching
 --------------------
+* CS600: Advanced Algorithms, Fall 2021.
+
 * CS583: Deep Learning, Spring 2021.
 
 * CS600: Advanced Algorithms, Fall 2020.
