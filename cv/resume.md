@@ -189,7 +189,7 @@ Xiang Li, **Shusen Wang**, Kun Chen, and Zhihua Zhang.
 In *International Conference on Machine Learning* (**ICML**), 2021.
 
 * [Accelerating Transformer-based Deep Learning Models on FPGAs using Column Balanced Block Pruning.]()
-Hongwu Peng, Shaoyi Huang, Tong Geng, Ang Li, Weiwen Jiang, Hang Liu, **Shusen Wang**, Caiwen Ding
+Hongwu Peng, Shaoyi Huang, Tong Geng, Ang Li, Weiwen Jiang, Hang Liu, **Shusen Wang**, Caiwen Ding.
 In *International Symposium on Quality Electronic Design*, 2021.
 
 
