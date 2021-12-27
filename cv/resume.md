@@ -3,13 +3,12 @@ Shusen Wang
 
 
 
->  Assistant Professor,
->  Department of Computer Science,
->  Stevens Institute of Technology
+>  Machine Learning Engineer and Team Leader,
+>  Xiaohongshu (Shanghai)
 
 
 
-**Phone:** (201)216-5485  &nbsp; &nbsp;  **Email:** shusen.wang@stevens.edu  &nbsp; &nbsp; **Homepage:** wangshusen.github.io
+**Email:** shusenwang@xiaohongshu.com  &nbsp; &nbsp; **Homepage:** wangshusen.github.io
 
 
 
@@ -23,7 +22,10 @@ Deep learning, distributed machine learning, reinforcement learning, statistical
 Work Experience
 ----------
 
-from 2018
+From 2021
+:   **Machine learning engineer**; Xiaohongshu (Shanghai, China)
+
+2018-2021
 :   **Tenure-track assistant professor**; Department of Computer Science, Stevens Institute of Technology (Hoboken, NJ, USA)
 
 2016-2018
