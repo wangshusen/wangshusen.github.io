@@ -12,10 +12,12 @@ Shusen Wang
 
 
 
-Research
+Expertise
 ---------
 
-Deep learning, distributed machine learning, reinforcement learning, statistical machine learning, numerical optimization, randomized linear algebra.
+**Research**: Deep learning, distributed machine learning, reinforcement learning, statistical machine learning, numerical optimization, randomized linear algebra.
+
+**Industry**: Search engine, recommender system, item cold start, ranking, retrieval.
 
 
 
@@ -23,7 +25,7 @@ Work Experience
 ----------
 
 From 2021
-:   **Machine learning engineer**; Xiaohongshu (Shanghai, China)
+:   **Machine learning engineer and team leader**; Xiaohongshu (Shanghai, China)
 
 2018-2021
 :   **Tenure-track assistant professor**; Department of Computer Science, Stevens Institute of Technology (Hoboken, NJ, USA)
@@ -182,6 +184,15 @@ Zhihua Zhang, **Shusen Wang**, Dehua Liu, and Michael I. Jordan.
 
 Conference Papers
 --------------------
+* [Federated Reinforcement Learning with Environment Heterogeneity.]()
+Hao Jin, Yang Peng, Wenhao Yang, **Shusen Wang**, and Zhihua Zhang
+In *Artificial Intelligence and Statistics* (**AISTATS**), 2022.
+
+* [Learning by Interpreting.]()
+Xuting Tang, Abdul Rafae Khan, **Shusen Wang**, Jia Xu
+In *International Joint Conference on Artificial Intelligence* (**IJCAI**), 2022.
+
+
 * [Matrix Sketching for Secure Collaborative Machine Learning.]()
 Mengjiao Zhang and **Shusen Wang**.
 In *International Conference on Machine Learning* (**ICML**), 2021.
@@ -293,5 +304,7 @@ Teaching
 
 * CS583: Deep Learning, Spring 2019.
 
-* Open courses on YouTube: [[English Channel](https://www.youtube.com/c/ShusenWangEng)] [[Chinese Channel](https://www.youtube.com/c/ShusenWang)]
+* English Channel: [[YouTube](https://www.youtube.com/c/ShusenWangEng)] 
+
+* Chinese Channel: [[YouTube](https://www.youtube.com/c/ShusenWang)] [[Bilibili](https://space.bilibili.com/1369507485)]
 
