@@ -1,0 +1,517 @@
+%# -*- coding:utf-8 -*-
+%% start of file `template_en.tex'.
+%% Copyright 2006-1008 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{fontspec,xunicode}
+\setmainfont{Tahoma}
+\usepackage[slantfont,boldfont]{xeCJK}
+\usepackage{xcolor}                 % replace by the encoding you are using
+
+
+\setmainfont{Times New Roman}%缺省英文字体.serif是有衬线字体sans serif无衬线字体
+\setCJKmainfont[ItalicFont={Kai}, BoldFont={Hei}]{STSong}%衬线字体 缺省中文字体为
+\setCJKsansfont{STSong}
+\setCJKmonofont{STFangsong}%中文等宽字体
+%-----------------------xeCJK下设置中文字体------------------------------%
+\setCJKfamilyfont{song}{SimSun}                             %宋体 song
+\newcommand{\song}{\CJKfamily{song}}
+\setCJKfamilyfont{fs}{FangSong_GB2312}                      %仿宋2312 fs
+\newcommand{\fs}{\CJKfamily{fs}}
+\setCJKfamilyfont{yh}{Microsoft YaHei}                    %微软雅黑 yh
+\newcommand{\yh}{\CJKfamily{yh}}
+\setCJKfamilyfont{hei}{SimHei}                              %黑体  hei
+\newcommand{\hei}{\CJKfamily{hei}}
+\setCJKfamilyfont{hwxh}{STXihei}                                %华文细黑  hwxh
+\newcommand{\hwxh}{\CJKfamily{hwxh}}
+\setCJKfamilyfont{asong}{Adobe Song Std}                        %Adobe 宋体  asong
+\newcommand{\asong}{\CJKfamily{asong}}
+\setCJKfamilyfont{ahei}{Adobe Heiti Std}                            %Adobe 黑体  ahei
+\newcommand{\ahei}{\CJKfamily{ahei}}
+\setCJKfamilyfont{akai}{Adobe Kaiti Std}                            %Adobe 楷体  akai
+\newcommand{\akai}{\CJKfamily{akai}}
+
+
+%------------------------------设置字体大小------------------------%
+\newcommand{\chuhao}{\fontsize{42pt}{\baselineskip}\selectfont}     %初号
+\newcommand{\xiaochuhao}{\fontsize{36pt}{\baselineskip}\selectfont} %小初号
+\newcommand{\yihao}{\fontsize{28pt}{\baselineskip}\selectfont}      %一号
+\newcommand{\erhao}{\fontsize{21pt}{\baselineskip}\selectfont}      %二号
+\newcommand{\xiaoerhao}{\fontsize{18pt}{\baselineskip}\selectfont}  %小二号
+\newcommand{\sanhao}{\fontsize{15.75pt}{\baselineskip}\selectfont}  %三号
+\newcommand{\sihao}{\fontsize{14pt}{\baselineskip}\selectfont}         %四号
+\newcommand{\xiaosihao}{\fontsize{12pt}{\baselineskip}\selectfont}  %小四号
+\newcommand{\wuhao}{\fontsize{10.5pt}{\baselineskip}\selectfont}    %五号
+\newcommand{\subwuhao}{\fontsize{10pt}{\baselineskip}\selectfont}    %次五号
+\newcommand{\xiaowuhao}{\fontsize{9pt}{\baselineskip}\selectfont}   %小五号
+\newcommand{\liuhao}{\fontsize{7.875pt}{\baselineskip}\selectfont}  %六号
+\newcommand{\qihao}{\fontsize{5.25pt}{\baselineskip}\selectfont}    %七号
+
+
+%\usepackage{fontawesome}
+% \setCJKmainfont[BoldFont={WenQuanYi Micro Hei/Bold}]{WenQuanYi Micro Hei}
+%\defaultfontfeatures{Mapping=tex-text}
+%\XeTeXlinebreaklocale "zh"
+%\XeTeXlinebreakskip = 0pt plus 1pt minus 0.1pt
+% moderncv themes
+\moderncvtheme[green]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+%\moderncvtheme[blue,roman]{hht}
+% character encoding
+
+
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{}
+\familyname{Shusen Wang}
+%\title{史蒂文斯理工学院，助理教授，博导}               % optional, remove the line if not wanted
+% \address{杭州}{}    % optional, remove the line if not wanted
+%\mobile{电话： 17318050692}                    % optional, remove the line if not wanted
+\email{Email: wssatzju@gmail.com}                     % optional, remove the line if not wanted
+\homepage{Homepage: wangshusen.github.io} % optional, remove the line if not wanted
+
+
+%\photo[64pt]{avatar.png}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{China\TeX 您的LaTeX乐园，TeX\&\LaTeX 王国}                 % optional, remove the line if not wante
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\vspace*{-14mm}
+
+
+
+\section{About Me}
+
+%\cvitem{职位：}{机器学习算法相关高级职位}
+%\cvitem{地点：}{中国或美国} 
+
+\qquad
+I earned both my Bachelor's and Doctoral degrees in computer science from Zhejiang University, with the former being awarded in 2011 and the latter in 2016. Throughout my doctoral studies, I was honored with China's most prestigious fellowships and scholarships, namely the ``Microsoft Research Asia Fellowship'' and the ``Baidu Scholarship''. Subsequently, I continued my academic journey as a postdoctoral scholar at the Department of Statistics, University of California at Berkeley, from 2016 to 2018. I then served as a tenure-track assistant professor at the Department of Computer Science, Stevens Institute of Technology, from 2018 to 2021. In late 2021, I transitioned my career to the industry. I worked at Xiaohongshu (Shanghai) as a machine learning engineer and manager, from 2021 to 2023. Before I left Xiaohongshu, I led an NLP team of 14 full-time engineers and 20 interns.
+
+
+
+\qquad
+I possess a wide range of expertise encompassing machine learning, reinforcement learning, and numerical algorithms. I also have practical experience with industrial search engines, recommender systems, and NLP. In my leisure time, I published a book titled \href{https://github.com/wangshusen/DRL/tree/master/Notes_CN}{\textit{Deep Reinforcement Learning (in Chinese)}}, authored a book draft titled \href{https://github.com/wangshusen/SearchEngine}{\textit{Search Engines (in Chinese)}}, and created an open course called \href{https://github.com/wangshusen/RecommenderSystem}{\textit{Industrial Recommender System (in Chinese)}}.
+
+
+
+
+\qquad
+Within the industry, my primary experience lies in search engines and NLP. From 2021 to  2022, I led the model team responsible for Xiaohongshu's search engine. During this time, my team successfully launched 14 experiments that positively impacted key performance indicators such as DAU, retention, and CTR, while also reducing CPU/GPU costs. From 2022 to 2023, I lead the NLP team, which supports various areas including search, recommendation, e-commerce, user growth, etc. My team has also train GPT models and applied them to products such as conversational search engine.
+
+
+
+
+
+\section{Work Experience}
+\cvitem{2021 -- 2023}{Xiaohongshu (Shanghai, China), machine learning engineer \& manager }
+\cvitem{2018 -- 2021}{Stevens Institute of Technology (NJ, USA), Assistant Professor in Computer Science }
+\cvitem{2016 -- 2018}{UC Berkeley (CA, USA), Postdoc}
+\cvitem{2014 -- 2015}{Baidu Big Data Lab (Beijing, China), intern}
+\cvitem{2012 -- 2012}{Google (Beijing, China), intern}
+\cvitem{2011 -- 2012}{Microsoft Research Asia (Beijing, China), intern}
+
+
+
+\section{Education}
+\cvitem{2011 -- 2016}{Zhejiang University (Hangzhou, China), Ph.D.\ in Computer Science}
+\cvitem{2007 -- 2011}{Zhejiang University (Hangzhou, China), B.Eng.\ in Computer Science}
+
+
+\section{Industry Projects}
+
+\cvitem{2022}{Improving CTR model for search ranking}
+\cvlistitem{My team focused on enhancing the click-through rate (CTR) model for search ranking. We introduced several improvements to the neural network architecture and feature selection, resulting in significant increases in query CTR, document CTR, and overall user engagement.}
+\cvlistitem{My team transitioned from CPU-based training and inference to GPU-based training and inference, consequently reducing costs and response times. }
+
+
+
+\cvitem{2022}{Locality-sensitive search intents}
+\cvlistitem{Over 1\% of queries on Xiaohongshu were aimed at discovering nearby points of interest (POIs). However, our search engine seemed to be overlooking such queries and not catering to this specific user intent.}
+\cvlistitem{In response to the issue, I initiated a project to address the needs of users searching for nearby POIs. I took the lead in designing the project pipeline, encompassing query understanding, retrieval, and ranking processes.}
+\cvlistitem{As a result, we achieved a substantial increase in query CTR for searches with nearby intent. Due to its success, the project was recognized with the 2022 Q3 ExtraMile Prize, standing out as one of the top five projects within the company.}
+
+
+
+
+\cvitem{2022-2023}{NLP techniques for search retrieval}
+\cvlistitem{I conceptualized an innovative \textit{inverse retrieval} method, which generates highly relevant queries offline and constructs an index to map queries to lists of related documents. My team implemented and launched this inverse retrieval strategy, leading to a notable 0.1\% increase in both the app's daily active users (DAU) and user retention.}
+\cvlistitem{My team used  the inverse retrieval method to enhance the retrieval of newly published documents. When a new document is published, our nearline pipeline generates relevant queries for it and adds the corresponding $\langle \textrm{query}, \textrm{doc} \rangle$ pair to the index of query $\rightarrow$ List $\langle \textrm{doc} \rangle$. This project significantly improved the 24-hour new document impression ratio and led to a slight increase in both query and document click-through rates (CTR).}
+
+
+
+\cvitem{2022-2023}{Offline search retrieval pipelines}
+\cvlistitem{My team developed and implemented an innovative \textit{cached retrieval} method. We maintain a table consisting of the top 5 million queries, and for each of these queries, we perform an offline analysis of the search log to extract highly relevant documents with impressive content quality, freshness, and substantial click numbers. The index for query $\rightarrow$ List $\langle \textrm{doc} \rangle$ is updated daily, serving as a retrieval channel. As a result of this project, we increased query click-through rates (CTRs).}
+\cvlistitem{I proposed an offline search pipeline that targets top queries and initiates proactive, non-personalized retrieval and ranking during nighttime. This process establishes a key-value (KV) index for query $\rightarrow$ List $\langle \textrm{doc} \rangle$. In the online stage, the offline computation results replace the non-personalized retrieval channel. The project further reduced the GPU costs related to relevance by 21\%, as well as improving click-through rates and other key performance indicators.}
+
+
+
+
+
+\cvitem{2022-2023}{Pretrained BERT models.}
+\cvlistitem{My team pretrained both 12-layer and 48-layer BERT models on a combination of public data and proprietary Xiaohongshu data.}
+\cvlistitem{These pretrained models have been applied to various use cases, including search relevance and search queries, exhibiting significant enhancements in performance.}
+
+
+\cvitem{2023}{GPT models.}
+\cvlistitem{Utilizing the open-source LLAMA model as a foundation, we conduct continal pretrain and finetuning.}
+\cvlistitem{We invented \href{https://github.com/ziliwangnlp/RefGPT/blob/main/README_EN.md}{RefGPT}  that generates multi-turn dialogues, and we use the dialogues for finetuning GPT models.}
+\cvlistitem{We developed LLM-driven applications such as conversational search engine.}
+
+
+
+
+
+
+
+\section{Book}
+\cvlistitem{Deep Reinforcement Learning (in Chinese). \\
+	\textbf{Shusen Wang}, Yujun Li, and Zhihua Zhang.\\
+	\textit{Posts \& Telecom Press Co.,Ltd}, 2022. 
+}
+
+
+\cvlistitem{Search Engines (in Chinese). \\
+	\textbf{Shusen Wang}.\\
+	\textit{Book draft available at [\href{https://github.com/wangshusen/SearchEngine}{here}]}, 2023. 
+}
+
+
+\section{Journal Papers}
+\cvlistitem{Fast Randomized-MUSIC for Mm-Wave Massive MIMO Radars. \\
+	Bin Li, \textbf{Shusen Wang}, Jun Zhang, Xianbin Cao, and Chenglin Zhao.\\
+	\textit{IEEE Transactions on Vehicular Technology}, 70(2):1952-1956, 2021.
+}
+
+\cvlistitem{\href{https://ieeexplore.ieee.org/document/9328487}{Fast Pseudo-spectrum Estimation for Automotive Massive MIMO Radar.} \\
+	Bin Li, \textbf{Shusen Wang}, Zhiyong Feng, Jun Zhang, Xianbin Cao, and Chenglin Zhao.\\
+	\textit{IEEE Internet of Things Journal}, 2021.
+	}
+\cvlistitem{\href{https://ieeexplore.ieee.org/document/9115654}{Randomized Approximate Channel Estimator in Massive-MIMO Communication}.\\
+	Bin Li, \textbf{Shusen Wang}, Xianbin Cao, Jun Zhang, and Chenglin Zhao.\\
+	\textit{IEEE Communications Letters}, 24(10):2314 - 2318, 2020.
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/JMLR2019B.pdf}{A Bootstrap Method for Error Estimation in Randomized Matrix Multiplication.}\\
+	Miles E. Lopes, \textbf{Shusen Wang}, Michael W. Mahoney.\\
+	\textit{Journal of Machine Learning Research} (\textbf{JMLR}), 20(39):1-40, 2019.
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/JMLR2019A.pdf}{Scalable Kernel K-Means Clustering with Nystrom Approximation: Relative-Error Bounds.}\\
+	\textbf{Shusen Wang}, Alex Gittens, and Michael W. Mahoney.\\
+	\textit{Journal of Machine Learning Research} (\textbf{JMLR}), 20(12):1-49, 2019.
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/JMLR2018.pdf}{Sketched Ridge Regression: Optimization Perspective, Statistical Perspective, and Model Averaging.} \\
+	\textbf{Shusen Wang}, Alex Gittens, and Michael W. Mahoney.\\
+	\textit{Journal of Machine Learning Research} (\textbf{JMLR}), 18:1-50, 2018.
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/GJI2018.pdf}{Efficient Data-Driven Geologic Feature Characterization from Pre-stack Seismic Measurements using Randomized Machine-Learning Algorithm.} \\
+	Youzuo Lin, \textbf{Shusen Wang}, Jayaraman Thiagarajan, George Guthrie, and David Coblentz. \\
+	\textit{Geophysical Journal International}, ggy385, 2018. 
+	}
+\cvlistitem{Alchemist: An Apache Spark <=> MPI Interface. \\
+	Alex Gittens, Kai Rothauge, Michael W. Mahoney, \textbf{Shusen Wang}, Lisa Gerhardt, Prabhat, Jey Kottalam, Michael Ringenburg, and Kristyn Maschhoff. \\
+	\textit{Concurrency and Computation Practice and Experience}, Special Issue on the Cray User Group, 2018.
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/JMLR2016b.pdf}{Towards More Efficient SPSD Matrix Approximation and CUR Matrix Decomposition.}\\
+	\textbf{Shusen Wang}, Zhihua Zhang, and Tong Zhang.\\
+	\textit{Journal of Machine Learning Research} (\textbf{JMLR}), 17(210):1-49, 2016.
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/JMLR2016.pdf}{SPSD Matrix Approximation vis Column Selection: Theories, Algorithms, and Extensions.}\\
+	\textbf{Shusen Wang}, Luo Luo, and Zhihua Zhang.\\
+	\textit{Journal of Machine Learning Research} (\textbf{JMLR}), 17(49):1-49, 2016. 
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/JMLR2013.pdf}{Improving CUR Matrix Decomposition and the Nystrom Approximation via Adaptive Sampling.}\\
+	\textbf{Shusen Wang} and Zhihua Zhang. \\
+	\textit{Journal of Machine Learning Research} (\textbf{JMLR}), 14: 2729-2769, 2013.
+	}
+\cvlistitem{\href{http://wangshusen.github.io/papers/JMLR2012.pdf}{EP-GIG Priors and Applications in Bayesian Sparse Learning.}\\
+	Zhihua Zhang, \textbf{Shusen Wang}, Dehua Liu, and Michael I. Jordan.\\
+	\textit{Journal of Machine Learning Research} (\textbf{JMLR}), 13: 2031-2061, 2012.
+	}
+
+
+
+
+
+\section{Conference Papers}
+\cvlistitem{
+	Federated Reinforcement Learning with Environment Heterogeneity.\\
+	Hao Jin, Yang Peng, Wenhao Yang, \textbf{Shusen Wang}, and Zhihua Zhang. \\
+	In \textit{Artificial Intelligence and Statistics} (\textbf{AISTATS}), 2022.
+}
+
+\cvlistitem{
+	Learning by Interpreting.\\
+	Xuting Tang, Abdul Rafae Khan, \textbf{Shusen Wang}, and Jia Xu. \\
+	In \textit{International Joint Conference on Artificial Intelligence} (\textbf{IJCAI}), 2022.
+}
+
+\cvlistitem{
+	Matrix Sketching for Secure Collaborative Machine Learning.\\
+	Mengjiao Zhang and \textbf{Shusen Wang}. \\
+	In \textit{International Conference on Machine Learning} (\textbf{ICML}), 2021.
+}
+
+\cvlistitem{
+	Communication-Efficient Distributed SVD via Local Power Iterations.\\
+	Xiang Li, \textbf{Shusen Wang}, Kun Chen, and Zhihua Zhang. \\
+	In \textit{International Conference on Machine Learning} (\textbf{ICML}), 2021.
+}
+
+\cvlistitem{On the Convergence of FedAvg on Non-IID Data.\\
+	Xiang Li, Kaixuan Huang, Wenhao Yang, \textbf{Shusen Wang}, and Zhihua Zhang. \\
+	In \textit{International Conference on Learning Representations} (\textbf{ICLR}), 2020.
+	}
+
+\cvlistitem{
+	Do Subsampled Newton Methods Work for High-Dimensional Data?\\
+	Xiang Li, \textbf{Shusen Wang}, and Zhihua Zhang. \\
+	In \textit{AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2020.
+	}
+
+\cvlistitem{Cola-GNN: Cross-Location Attention based Graph Neural Networks for Long-term ILI Prediction.\\
+	Songgaojun Deng, \textbf{Shusen Wang}, Huzefa Rangwala, Lijing Wang, and Yue Ning.\\
+	In \textit{Conference on Information and Knowledge Management} (\textbf{CIKM}), 2020.
+	}
+
+\cvlistitem{Sharper Generalization Bound for the Divide-and-Conquer Ridge Regression.\\
+	\textbf{Shusen Wang}. \\
+	In \textit{AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2019.
+	}
+
+\cvlistitem{GIANT: Globally Improved Approximate Newton Method for Distributed Optimization.\\
+	\textbf{Shusen Wang}, Farbod Roosta-Khorasani, Peng Xu, and Michael W. Mahoney. \\
+	In \textit{Advances in Neural Information Processing Systems} (\textbf{NIPS}), 2018.
+	}
+
+\cvlistitem{Error Estimation for Randomized Least-Squares Algorithms via the Bootstrap.\\
+	Miles E. Lopes, \textbf{Shusen Wang}, and Michael W. Mahoney.\\
+	In \textit{International Conference on Machine Learning} (\textbf{ICML}), 2018.
+	}
+
+\cvlistitem{Accelerating Large-Scale Data Analysis by Offloading to High-Performance Computing Libraries using Alchemist.\\
+	Alex Gittens, Kai Rothauge, \textbf{Shusen Wang}, Michael W. Mahoney, Lisa Gerhardt, Prabhat, Jey Kottalam, Michael Ringenburg, and Kristyn Maschhoff. \\
+	In \textit{ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (\textbf{KDD}), 2018.
+	}
+	
+\cvlistitem{OverSketch: Approximate Matrix Multiplication for the Cloud.\\
+	Vipul Gupta, \textbf{Shusen Wang}, Thomas Courtade, and Kannan Ramchandran.\\
+	In \textit{IEEE International Conference on Big Data}, 2018.
+	}
+	
+\cvlistitem{Sketched Ridge Regression: Optimization Perspective, Statistical Perspective, and Model Averaging.\\
+	\textbf{Shusen Wang}, Alex Gittens, and Michael W. Mahoney.\\
+	In \textit{International Conference on Machine Learning} (\textbf{ICML}), 2017.
+	}
+	
+\cvlistitem{Towards Real-Time Geologic Feature Detection from Seismic Measurements using a Randomized Machine-Learning Algorithm.\\
+	Youzuo Lin, \textbf{Shusen Wang}, Jayaraman Thiagarajan, George Guthrie, and David Coblentz.\\
+	In \textit{Proceeding of Society of Exploration Geophysics} (\textbf{SEG}), 2017.
+	}
+
+\cvlistitem{Open Domain Short Text Conceptualization: A Generative + Descriptive Modeling Approach.\\
+	Yangqiu Song, \textbf{Shusen Wang}, and Haixun Wang.\\
+	In \textit{International Joint Conference on Artificial Intelligence} (\textbf{IJCAI}), 2015.
+	}
+
+\cvlistitem{Improving the Modified Nystrom Method Using Spectral Shifting. \\
+	\textbf{Shusen Wang}, Chao Zhang, Hui Qian, and Zhihua Zhang. \\
+	In \textit{ACM SIGKDD Conference on Knowledge Discovery and Data Mining} (\textbf{KDD}), 2014.
+	}
+
+\cvlistitem{Efficient Algorithms and Error Analysis for the Modified Nystrom Method.\\
+	\textbf{Shusen Wang} and Zhihua Zhang.\\
+	In \textit{International Conference on Artificial Intelligence and Statistics},  (\textbf{AISTATS}), 2014.
+	}
+
+\cvlistitem{Making Fisher Discriminant Analysis Scalable.\\
+	Bojun Tu, Zhihua Zhang, \textbf{Shusen Wang}, and Hui Qian.\\
+	In \textit{International Conference on Machine Learning} (\textbf{ICML}), 2014.
+	}
+
+\cvlistitem{Exact Subspace Clustering in Linear Time. \\
+	\textbf{Shusen Wang}, Bojun Tu, Congfu Xu, and Zhihua Zhang. \\
+	In \textit{the 28th AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2014.
+	}
+
+\cvlistitem{Using The Matrix Ridge Approximation to Speedup Determinantal Point Processes Sampling Algorithms. \\
+	\textbf{Shusen Wang}, Chao Zhang, Hui Qian, and Zhihua Zhang. \\
+	In \textit{the 28th AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2014.
+	}
+
+\cvlistitem{Transfer Understanding from Head Queries to Tail Queries.\\
+	Yangqiu Song, Haixun Wang, Weizhu Chen, and \textbf{Shusen Wang}.\\
+	In \textit{ACM International Conference on Information and Knowledge Management} (\textbf{CIKM}), 2014.
+	}
+
+\cvlistitem{Nonconvex Relaxation Approaches to Robust Matrix Recovery. \\
+	\textbf{Shusen Wang}, Dehua Liu, and Zhihua Zhang. \\
+	In \textit{International Joint Conference on Artificial Intelligence} (\textbf{IJCAI}), 2013.
+	}
+
+\cvlistitem{A Scalable CUR Matrix Decomposition Algorithm: Lower Time Complexity and Tighter Bound. \\
+	\textbf{Shusen Wang} and Zhihua Zhang. \\
+	In \textit{Advances in Neural Information Processing Systems} (\textbf{NIPS}), 2012.
+	}
+
+\cvlistitem{Colorization by Matrix Completion.\\
+	\textbf{Shusen Wang} and Zhihua Zhang.\\
+	In \textit{AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2012.
+	}
+
+\cvlistitem{Efficient Subspace Segmentation via Quadratic Programming.\\
+	\textbf{Shusen Wang}, Xiaotong Yuan, Tiansheng Yao, Shuicheng Yan, and Jialie Shen. \\
+	In \textit{AAAI Conference on Artificial Intelligence} (\textbf{AAAI}), 2011.
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Teaching}
+\cvitem{2021 Fall}{CS600: Advanced Algorithms}
+\cvitem{2021 Spring}{CS583: Deep Learning (remote)}
+\cvitem{2020 Fall}{CS600: Advanced Algorithms (remote), with students' rating of $3.90/4.0$}
+\cvitem{2020 Spring}{CS583: Deep Learning, with students' rating of $3.89/4.0$}
+\cvitem{2019 Fall}{CS583: Deep Learning, with students' rating of $3.83/4.0$}
+\cvitem{2021 Spring}{CS583: Deep Learning, with students' rating of $3.71/4.0$}
+\cvitem{Open Course}{YouTube Chinese Channel: \url{https://www.youtube.com/c/ShusenWang}}
+\cvitem{}{YouTube English Channel: \url{https://www.youtube.com/c/ShusenWangEng}}
+\cvitem{}{Bilibili Chinese Channel：\url{https://space.bilibili.com/1369507485}}
+
+
+
+
+
+\section{Honors \& Awards}
+\cvitem{2014}{Baidu Scholarship, awarded to 8 Chinese students in the world, US\$30,000}
+\cvitem{2013}{Microsoft Research Asia Fellow, awarded to 10 students in Asia Pacific, US\$10,000}
+\cvitem{2012}{Scholarship Award for Excellent Doctoral Student Granted by Ministry of
+	Education, US\$5,000}
+\cvitem{2012 -- 2014}{National Scholarship for Graduate Students, 3 times, each time US\$5,000}
+
+
+
+
+\section{Academic Service}
+
+\cvitem{}{\textbf{Journal Reviewer}}
+\cvlistitem{Journal of Machine Learning Research, 2015 -- 2021}
+\cvlistitem{SIAM Journal on Scientific Computing, 2017}
+\cvlistitem{ACM Transactions on Mathematical Software, 2017}
+\cvlistitem{Journal of Econometrics, 2017}
+\cvlistitem{SIAM Journal on Matrix Analysis and Applications, 2017, 2019}
+\cvlistitem{International Journal of Data Science and Analytics, 2018}
+\cvlistitem{IEEE Transactions on Signal Processing, 2018}
+\cvlistitem{IEEE Transactions on Information Theory, 2019}
+\cvlistitem{IEEE Transactions on Pattern Analysis and Machine Intelligence, 2019, 2020}
+
+
+
+\cvitem{}{\textbf{Conference Committee Member}}
+\cvlistitem{NIPS 2014, 2015, 2017, 2018, 2020}
+\cvlistitem{ICML 2017, 2018, 2019}
+\cvlistitem{IJCAI 2015, 2017, 2018, 2019, 2020}
+\cvlistitem{AAAI 2017, 2018, 2020}
+\cvlistitem{AISTATS 2019, 2020}
+\cvlistitem{UAI 2019, 2020}
+\cvlistitem{Supercomputing 2019}
+\cvlistitem{KDD 2020}
+\cvlistitem{ICLR 2021}
+
+
+\cvitem{}{\textbf{Conference Senior Committee Member}}
+\cvlistitem{AAAI 2021}
+\cvlistitem{IJCAI 2021}
+
+
+
+
+
+
+% \subsection{Vocational}
+% \cventry{year--year}{Job title}{Employer}{City}{}{Description}                % arguments 3 to 6 are optional
+% \cventry{year--year}{Job title}{Employer}{City}{}{Description}                % arguments 3 to 6 are optional
+% \subsection{Miscellaneous}
+% \cventry{year--year}{Job title}{Employer}{City}{}{Description line 1\newline{}Description line 2}% arguments 3 to 6 are optional
+
+% \section{Languages}
+% \cvlanguage{language 1}{Skill level}{Comment}
+% \cvlanguage{language 2}{Skill level}{Comment}
+% \cvlanguage{language 3}{Skill level}{Comment}
+
+% \section{Computer skills}
+% \cvcomputer{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+% \cvcomputer{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+% \cvcomputer{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+
+% \section{Interests}
+% \cvline{篮球}{\small 体力与技巧}
+% \cvline{hobby 2}{\small Description}
+% \cvline{hobby 3}{\small Description}
+
+% \renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+% \section{Extra 1}
+% \cvlistitem{Item 1}
+% \cvlistitem{Item 2}
+%\cvlistitem[+]{Item 3}            % optional other symbol% XeLaTeX can use any Mac OS X font. See the setromanfont command below.
+% Input to XeLaTeX is full Unicode, so Unicode characters can be typed directly into the source.
+
+% The next lines tell TeXShop to typeset with xelatex, and to open and save the source with Unicode encoding.
+
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+%\section{Extra 2}
+%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
+%\cvlistdoubleitem[\Neutral]{Item 3}{}
+
+%% Publications from a BibTeX file
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% \begin{thebibliography}{}
+% \bibitem[]{} 移动增强现实可视化综述[C]. ChinaVis 2017.
+% \end{thebibliography}
+
+
+
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-command-extra-options: "-shell-escape"
+%%% TeX-master: t
+%%% TeX-engine: xetex
+%%% End:
